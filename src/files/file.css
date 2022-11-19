@@ -1,0 +1,234 @@
+.header {
+    background-color: #1D7874;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #e9ffe9;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+}
+
+.logo h2 {
+    font-size: 1.5rem;
+    color: #071E22;
+    cursor: pointer;
+}
+
+.logo h2:hover {
+    color: #e9ffe9;
+}
+
+a{
+    color: #e9fff9;
+    font-weight: 400;
+    margin: 5px;
+    transition-duration: 0.5s;
+}
+
+
+a:hover {
+    background-color: #071E22;
+    color: #e9fff9;
+    padding: 8px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+.btn:hover {
+    border: none;
+    background-color: #1D7874;
+    color: #E9FFF9;
+    padding: 7px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 25px;
+    box-shadow: 1D7874 0px 8px 24px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #B6DED8;
+    color: #071E22;
+    padding: 6px 15px;
+    font-size: 0.8rem;
+    margin-left: 32px;
+    font-weight: 700;
+}
+
+.hero, .explore, .signup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    height: 100vh;
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+    scroll-snap-align: start;
+    flex-wrap: wrap;
+}
+
+.left-container {
+    width: 50%;
+    color: #071E22;
+    padding: 50px;
+    height: 40vh;
+}
+
+.left-container h1 {
+    margin: 20px;
+}
+.left-container h2 {
+    margin: 20px;
+}
+.left-container p {
+    margin: 18px;
+}
+
+.right-container {
+    width: 40%;
+}
+
+.image-container img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.hero .right-container img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.rise {
+    color: green;
+}
+
+.fall {
+    color: red;
+}
+
+.explore .right-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 55%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: #1D7874 0px 8px 12px;
+    padding: 15px;
+    align-items: center;
+    transition-duration: 0.6s;
+}
+
+.card:hover {
+    width: 150px;
+    height: 150px;
+    transition-duration: 0.6s;
+}
+
+.card .top {
+    width: 50px;
+    margin: auto;
+}
+
+.card .top .image-container{
+    width: 70px;
+}
+
+.signup .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.signup .left {
+    text-align: center;
+}
+
+.signup img {
+    width: 300px;
+}
+
+.signup img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.signup .right p {
+    margin: 2rem 0;
+}
+
+.footer {
+    background-color: #071E22;
+    color: white;
+    width: 100vw;
+    margin: -105px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.table-container {
+    margin: 18px;
+}
+
+.table-link {
+    color: #071E22;
+    border: 1px solid #071E22;
+    padding: 12px;
+}
+
+.table .footer {
+    margin: 0;
+}
+
+.table-image {
+    width: 50px;
+}
+
+.table .table-head {
+    background-color: #071E22;
+    color: white;
+}
+
+.table .coin-display {
+    cursor: pointer;
+}
+
+.table .coin-display:hover {
+    background-color: #e9ffe9;
+    border-radius: 8px;
+    border: none;
+}
+
+.coin .right-container .image-container {
+    width: 50%;
+    margin: auto;
+}
