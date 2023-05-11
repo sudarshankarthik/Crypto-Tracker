@@ -31,7 +31,12 @@ const Coin = (props) => {
     if(coin.image == null) {
       return <div>loading...</div>
     }    
+    const coinDiscription =  (
+      <div dangerouslySetInnerHTML={{ __html: coin.description.en }} />
+      )
 
+    console.log(coin);
+    
   return (
     <div className='coin'>
       <Nav />
@@ -40,6 +45,7 @@ const Coin = (props) => {
         <img src={coin.image.large} alt={coin.name} width='10px'/>
         </div>
         <h2>{coin.name}</h2>
+        <p>{coinDiscription}</p>
       </div>
       <div className='left-container'>
         right
